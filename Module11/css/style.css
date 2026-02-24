@@ -1,0 +1,30 @@
+h2{
+color:brown;
+font-size: 100px;
+
+/* We can use negative values for margins */
+margin:100px
+}
+
+
+p{
+
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 100px;
+ margin-right: 100px;
+
+}
+
+h1{
+
+margin: 100px 100px 100px 100px; 
+background-color: lightblue;   
+padding-left: 50px;
+padding-right: 150px;
+padding-top: 50px;
+padding-bottom: 30px;
+
+}
+
+
