@@ -1,0 +1,60 @@
+p{
+    color: blue;
+    text-decoration: underline;
+   /* text-decoration: overline;
+    text-decoration: line-through;*/
+    font-family: fantasy;
+    text-indent: 50px;
+}
+
+h1{
+
+    text-decoration: line-through;
+  
+}
+
+h2{
+    text-decoration: overline;
+   
+}
+
+h3{
+    text-decoration: underline;
+   
+}
+
+.Heading{
+    color: red;
+}
+
+.blue{
+    color: blue;
+    text-decoration: overline;
+   
+}
+.red{
+    color: red;
+    text-decoration: underline;
+}
+
+#dizajni{
+    
+    font-family: cursive;
+}
+
+a:link {
+    color: red;
+    
+}
+a:visited {
+    color: green;
+    
+}   
+a:hover {
+    color: rgb(255, 0, 200);
+    
+}
+a:active {
+    color: yellow;
+    
+}
