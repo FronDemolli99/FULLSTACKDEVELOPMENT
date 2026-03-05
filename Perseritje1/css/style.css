@@ -1,0 +1,13 @@
+p{
+    font-family: cursive;
+}
+
+@font-face {
+    font-family: 'coder';
+    src: url('fonts/SemiCoderT.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'coder';
+   
+}
