@@ -1,30 +1,150 @@
-*{
+body {
     margin: 0;
-    padding: 0;
-   
 }
 
-#horizontal-menu{
+*{
+    box-sizing: border-box;
+}
 
+/* Horizontal Menu  */
+
+#horizontal-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
+    overflow: hidden;
 }
-#horizontal-menu li{
+
+#horizontal-menu li {
     float: left;
 }
-#horizontal-menu li a{
+
+#horizontal-menu li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}   
+
+.active {
+    background-color: #4CAF50;
 }
-#horizontal-menu li a:hover:not(.active){
+
+
+#horizontal-menu li a:hover:not(.active) {
     background-color: #111;
 }
-.active{
-    background-color: #176404;
+
+/* Vertical Menu */
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: greenyellow;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.coloumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    background-color: #cccccc; 
+}
+
+
+.coloumn a{
+    left: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.coloumn a:hover {
+    background-color: #ddd;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#vertical-menu {
+    list-style-type: none;
+    margin: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+
+    overflow: auto;
+}
+
+#vertical-menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+
+#vertical-menu li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#vertical-menu li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
