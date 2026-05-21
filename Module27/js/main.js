@@ -1,34 +1,74 @@
-// function showMessage() {
+//  function showMessage() {
    
-//     alert("This is my first function ")
+//      alert("This is my first function ")
 
+//  }
+
+//  showMessage()
+
+//  function sum(number1, number2) {
+//      return number1 + number2;
+//  }
+
+//  console.log(sum(32,35))
+
+
+//  function toCelsius(fharenhight){
+//      return (5/9) * (fharenhight - 32)
 // }
 
-// showMessage()
 
-// function sum(number1, number2) {
-//     return number1 + number2;
-// }
-
-// console.log(sum(32,35))
-
-
-// function toCelsius(fharenhight){
-//     return (5/9) * (fharenhight - 32)
-// }
-
-
-// var resault = toCelsius(54);
+//  var resault = toCelsius(54);
 
 // console.log("Faranhite in celcius is"+ reault + "degrees");
 
 
-function calculator(nr1, nr2) {
-    console.log (nr1 + nr2 );
-    console.log (nr1 - nr2 );
-    console.log (nr1 / nr2 );
-    console.log (nr1 * nr2 );
+// function calculator(nr1, nr2) {
+//     console.log (nr1 + nr2 );
+//     console.log (nr1 - nr2 );
+//     console.log (nr1 / nr2 );
+//     console.log (nr1 * nr2 );
     
+// }
+// calculator(77,11)
+
+function digitalschool() {
+    var localvar = "DigitalSchool";
+    alert(localvar)
 }
 
-calculator(77,11)
+
+digitalschool()
+
+function siperfaqjaEtrekendshit(baza,lartesia) {
+    return baza * lartesia * 0.5  
+}
+
+console.log("Siperfaqja e trekendshit eshte" + siperfaqjaEtrekendshit(5,7))
+
+var liverpool = {
+    liga:'Premier lig',
+    pozicioni:"5",
+    stadium:"Anfilde",
+    capacity:67000,
+    kapiteni:'Van Dijk',
+    trofe:'N/A',
+    tifoo:function tifo() {
+        alert ("YNWA")
+    },
+    get getcapacity(){
+        return this.capacity
+    },
+    set setcapacity(fans){
+        this.capacity = fans
+    }
+}
+
+console.log(liverpool.trofe)
+
+liverpool.tifoo()
+
+console.log(liverpool.getcapacity)
+
+liverpool.setcapacity = 88000;
+console.log(liverpool.getcapacity)
