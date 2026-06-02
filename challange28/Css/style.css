@@ -1,0 +1,46 @@
+
+
+
+.circle{
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ background-color: blue;
+}
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+.rectangule{
+    width: 10%;
+    height: 75px;
+    background-color: blue;
+ 
+}
+
+
+
+.triangle{
+    height: 0;
+    width : 0px;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 50px solid blue ;
+    background-color: white;
+
+    margin-top: 30px;
+  
+
+
+}
+
+
+#shape{
+    align-content: center;
+    
+}
