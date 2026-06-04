@@ -42,3 +42,9 @@ var fav_drinks = ["White Monster",'Pineapple',"Cola 0",'Sprite',"Fanta"]
  console.log(first)
 
  console.log(others)
+
+
+ var avr_age =[10,23,44,45,55]
+ var[nr1,nr2,nr3,nr4,nr5] = avr_age
+
+ console.log((nr1+nr2+nr3+nr4+nr5)/5)
