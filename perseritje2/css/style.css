@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: #FFF8CF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    background-color: #76C457;
+}
+
+.card p {
+    color: #FBE6C2;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.card button {
+    background-color: #2A7C13;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.secondsection {
+    background-color: #76C457;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.majt {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.djath {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.djath input {
+    margin: 5px;
+}

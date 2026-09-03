@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 215, 175);
+}
+body{
+    color: black;
+}
+
+#form_container{
+    color: rgb(245, 0, 0);
+    max-width: 900px;
+    min-width: 750px;
+    background-color: rgb(28, 28, 32);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input{
+    width: auto;
+    padding: 20px;
+    border: none;
+    color: black;
+}
